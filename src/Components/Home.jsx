@@ -10,13 +10,13 @@ const Home = () => {
       <div>
         <SocialBar />
         <div className="max-w-full max-h-full bg-fixed  mx-auto">
-          <video
+          <img
             className="w-full h-full object-cover"
-            src="/File.mp4"
-            autoPlay
-            loop
-            muted
-          ></video>
+            src="./Wedding2.jpg"
+            // autoPlay
+            // loop
+            // muted
+          ></img>
         </div>
         <div className=" text-center mx-auto">
           <div className="text-center ">
@@ -61,8 +61,8 @@ const Home = () => {
           </div>
         </div>
         <div className="relative bg-custom Bg-50 h-[150vh] mt-10">
-          <div className="pt-10 h-screen absolute inset-0 z-10 bg-cover bg-[url('/Phuls.png')]"></div>
-          <div className="absolute z-20 bottom-[4%] top-[4%] left-[23%] w-[55%] bg-[#2f2f2a] border-solid border-2 rounded-tl-[35px] rounded-br-[35px] border-[#f8b95d] overflow-x-auto md:overflow-hidden">
+          <div className="pt-10 h-screen absolute inset-0 z-6 bg-cover bg-[url('/Phuls.png')]"></div>
+          <div className="absolute z-8 bottom-[4%] top-[4%] left-[23%] w-[55%] bg-[#2f2f2a] border-solid border-2 rounded-tl-[35px] rounded-br-[35px] border-[#f8b95d] overflow-x-auto md:overflow-hidden">
             <div className="flex flex-col justify-center items-center py-4">
               <div>
                 <img className="" src="/Tali2.png" alt="Tali2" />
