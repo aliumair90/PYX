@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div>
         <SocialBar />
-        <div className="max-w-full max-h-full bg-fixed">
+        <div className="max-w-full max-h-full bg-fixed  mx-auto">
           <video
             className="w-full h-full object-cover"
             src="/File.mp4"
@@ -18,14 +18,14 @@ const Home = () => {
             muted
           ></video>
         </div>
-        <div className=" text-center">
+        <div className=" text-center mx-auto">
           <div className="text-center ">
-            <h1 className="  text-[69px] text-yellow-500 mt-28 font-dancing">
+            <h1 className="text-4xl md:text-5xl lg:text-[69px] text-yellow-500 mt-28 font-dancing">
               A Modern Venue <br /> in the Midst of Rustic Ones{" "}
             </h1>
           </div>
           <div className="pt-14">
-            <h1 className=" text-[19px] text-gray-500 font-wixui tracking-wide">
+            <h1 className="text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl text-gray-500 font-wixui tracking-wide">
               Centrally located in Corinth, Texas making us the perfect
               destination <br /> for surrounding cities in the Dallas-Fort Worth
               Metroplex.
@@ -60,21 +60,21 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="relative bg-customBg-50 h-[150vh] mt-10">
-          <div className="   pt-10 h-screen bg-cover bg-[url('/Phuls.png')]"></div>
-          <div className="absolute  z-8 bottom-[4%] left-[23%] w-[55%] bg-[#2f2f2a] border-solid border-2 rounded-tl-[35px] rounded-br-[35px]  border-[#f8b95d]">
-            <div className="flex  flex-col justify-center items-center py-4">
+        <div className="relative bg-custom Bg-50 h-[150vh] mt-10">
+          <div className="pt-10 h-screen absolute inset-0 z-10 bg-cover bg-[url('/Phuls.png')]"></div>
+          <div className="absolute z-20 bottom-[4%] top-[4%] left-[23%] w-[55%] bg-[#2f2f2a] border-solid border-2 rounded-tl-[35px] rounded-br-[35px] border-[#f8b95d] overflow-x-auto md:overflow-hidden">
+            <div className="flex flex-col justify-center items-center py-4">
               <div>
                 <img className="" src="/Tali2.png" alt="Tali2" />
               </div>
               <div>
-                <h1 className="text-white text-2xl tracking-wide">
+                <h1 className="text-white text-2xl tracking-wide text-center">
                   HOW IT WORKS
                 </h1>
               </div>
             </div>
             <div className="flex flex-wrap p-2 justify-between">
-              <div className="card w-[22%] ">
+              <div className="card w-full sm:w-[48%] md:w-[32%] lg:w-[22%] p-2">
                 <div className="flex flex-col justify-center items-center ">
                   <img src="/icon1.png" alt="" />
                   <small className="text-white font-semibold ">INQUIRE</small>
@@ -90,7 +90,7 @@ const Home = () => {
                   </small>
                 </div>
               </div>
-              <div className="card w-[22%] p-2">
+              <div className="card w-full sm:w-[48%] md:w-[32%] lg:w-[22%] p-2">
                 <div className="flex flex-col justify-center items-center py-2">
                   <img src="/icon2.png" alt="" />
                   <small className="text-white font-semibold">
@@ -108,7 +108,7 @@ const Home = () => {
                   </small>
                 </div>
               </div>
-              <div className="card w-[22%] p-2">
+              <div className="card w-full sm:w-[48%] md:w-[32%] lg:w-[22%] p-2">
                 <div className="flex flex-col justify-center items-center py-2">
                   <img src="/icon3.png" alt="" />
                   <small className="text-white font-semibold ">
@@ -117,7 +117,7 @@ const Home = () => {
                 </div>
                 <div className="text-center px-2 tracking-wider leading-[1em]">
                   <small className="text-white text-[0.60rem]">
-                    ​Once you have toured with us, our sales team will be in
+                    Once you have toured with us, our sales team will be in
                     contact with you to provide you with a mock proposal which
                     will give you a better understanding of the cost for the
                     services you are seeking for your event. The proposal may be
@@ -125,7 +125,7 @@ const Home = () => {
                   </small>
                 </div>
               </div>
-              <div className="card w-[22%] p-2">
+              <div className="card w-full sm:w-[48%] md:w-[32%] lg:w-[22%] p-2">
                 <div className="flex flex-col justify-center items-center py-2">
                   <img src="/icon4.png" alt="" />
                   <small className="text-white font-semibold ">
@@ -150,54 +150,54 @@ const Home = () => {
         <div className=" h-[100vh]  bg-cover bg-center bg-no-repeat  bg-fixed bg-[url('/Venue.png')]"></div>
         <SliderSection />
         <div>
-          <div className="flex gap-1 mt-3">
-            <div className="w-[16%] relative group">
+          <div className="flex flex-wrap gap-1 mt-3">
+            <div className="w-[45%] sm:w-[50%] md:w-[33%] lg:w-[14%] relative group">
               <img
                 src="/Wedding1.jpg"
                 alt=""
-                className="w-full h-auto transition duration-300 transform group-hover:scale-105"
+                className="w-full h-[100px] sm:h-auto lg:h-[123px] transition duration-300 transform group-hover:scale-105"
               />
             </div>
-            <div className="w-[16%] relative group">
+            <div className="w-[45%] sm:w-[50%] md:w-[33%] lg:w-[14%] relative group">
               <img
                 src="/Wedding2.jpg"
                 alt=""
-                className="w-full h-auto transition duration-300 transform group-hover:scale-105"
+                className="w-full h-[100px] sm:h-auto lg:h-[123px] transition duration-300 transform group-hover:scale-105"
               />
             </div>
-            <div className="w-[16%] relative group">
+            <div className="w-[45%] sm:w-[50%] md:w-[33%] lg:w-[14%] relative group">
               <img
                 src="/Wedding3.jpg"
                 alt=""
-                className="w-full h-[123px] transition duration-300 transform group-hover:scale-105"
+                className="w-full h-[100px] sm:h-auto lg:h-[123px] transition duration-300 transform group-hover:scale-105"
               />
             </div>
-            <div className="w-[16%] relative group">
+            <div className="w-[45%] sm:w-[50%] md:w-[33%] lg:w-[14%] relative group">
               <img
                 src="/Wedding4.jpg"
                 alt=""
-                className="w-full h-auto transition duration-300 transform group-hover:scale-105"
+                className="w-full h-[100px] sm:h-auto lg:h-[123px] transition duration-300 transform group-hover:scale-105"
               />
             </div>
-            <div className="w-[16%] relative group">
+            <div className="w-[45%] sm:w-[50%] md:w-[33%] lg:w-[14%] relative group">
               <img
                 src="/Wedding5.jpg"
                 alt=""
-                className="w-full h-auto transition duration-300 transform group-hover:scale-105"
+                className="w-full h-[100px] sm:h-auto lg:h-[123px] transition duration-300 transform group-hover:scale-105"
               />
             </div>
-            <div className="w-[16%] relative group">
+            <div className="w-[45%] sm:w-[50%] md:w-[33%] lg:w-[14%] relative group">
               <img
                 src="/Wedding6.jpg"
                 alt=""
-                className="w-full h-auto transition duration-300 transform group-hover:scale-105"
+                className="w-full h-[100px] sm:h-auto lg:h-[123px] transition duration-300 transform group-hover:scale-105"
               />
             </div>
-            <div className="w-[16%] relative group">
+            <div className="w-[45%] sm:w-[50%] md:w-[33%] lg:w-[14%] relative group">
               <img
                 src="/Wedding7.jpg"
                 alt=""
-                className="w-full h-[123px] transition duration-300 transform group-hover:scale-105"
+                className="w-full h-[100px] sm:h-auto lg:h-[123px] transition duration-300 transform group-hover:scale-105"
               />
             </div>
           </div>

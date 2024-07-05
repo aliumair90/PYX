@@ -19,7 +19,7 @@ const NewsletterForm = () => {
   };
 
   return (
-    <div className="pt-3 ">
+    <div className="pt-3 mx-auto">
       <div className="  bg-[#2f2f2af2] flex justify-center items-center min-h-screen text-yellow-500  font-dancing ">
         <div className="w-3/4 p-8 ">
           <h3 className="text-center text-4xl font-bold italic mb-6">
@@ -29,7 +29,7 @@ const NewsletterForm = () => {
             NEWSLETTER SUBSCRIBE
           </p>
           <div>
-            <form onSubmit={handleSubmit} className=" flex  gap-60">
+            <form onSubmit={handleSubmit} className=" flex flex-col lg:flex-row gap-30 lg:gap-60">
               <div className="flex flex-col">
                 <label htmlFor="name" className="text-sm font-semibold">
                   Name
@@ -38,7 +38,7 @@ const NewsletterForm = () => {
                   id="name"
                   name="name"
                   type="text"
-                  className=" px-3 py-0.5 w-[170%] border border-gray-300 focus:outline-none focus:border-blue-500"
+                  className=" px-3 py-0.5 wd:[10%] lg:w-[170%] border border-gray-300 focus:outline-none focus:border-blue-500"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
@@ -52,7 +52,7 @@ const NewsletterForm = () => {
                   id="email"
                   name="email"
                   type="email"
-                  className="w-[170%] px-3 py-0.5 border border-gray-300  focus:outline-none focus:border-blue-500"
+                  className="lg:w-[170%] wd:[100%] px-3 py-0.5 border border-gray-300  focus:outline-none focus:border-blue-500"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
