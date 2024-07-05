@@ -51,11 +51,11 @@ const Nav = () => {
             <Link to="/planning">PLANNING</Link>
           </div>
         </div>
-        <div className="pl-72">
+        <div className="pl-40 mt-4">
           <Link to="/contact-us">
             <button
               type="button"
-              className=" text-base text-white border border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-t rounded-b-2xl border-gray-300 border-2 text-sm px-12 py-1.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900 hover:bg-gray-500"
+              className=" text-base text-white border border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium  rounded-l border-gray-300 border-2 text-sm px-12 py-1.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900 hover:bg-gray-500"
             >
               Contact Us
             </button>

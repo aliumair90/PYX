@@ -63,7 +63,7 @@ const NewsletterForm = () => {
           <div className="flex justify-center pt-8">
             <button
               type="submit"
-              className="  px-32 font-raleway text-base text-black border border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded border-black border text-sm px-5 py-1 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:bg-yellow-500 dark:hover:bg-yellow-400 dark:focus:ring-yellow-900 hover:bg-black hover:text-yellow-500 hover:border-yellow-500"
+              className="  px-32 font-raleway text-base text-black border border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded border-black border text-sm  py-1 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:bg-yellow-500  dark:focus:ring-yellow-900 hover:bg-black hover:text-yellow-500 hover:border-yellow-500"
             >
               Submit
             </button>

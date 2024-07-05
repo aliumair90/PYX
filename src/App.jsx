@@ -10,7 +10,7 @@ import CorporateEvent from "./Components/CorporateEvent";
 import SocialEvent from "./Components/SocialEvent";
 import Faq from "./Components/Faq";
 import Blog from "./Components/Blog";
-// import Planning from "./Components/Planning";
+import Planing from "./Components/Planing";
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
         <Route path="/weddings" element={<Weddings />} />
         <Route path="/corporate-event" element={<CorporateEvent />} />
         <Route path="/social-event" element={<SocialEvent />} />
-        {/* <Route path="/planning" element={<Planning />} /> */}
+        <Route path="/planning" element={<Planing />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/blog" element={<Blog />} />
