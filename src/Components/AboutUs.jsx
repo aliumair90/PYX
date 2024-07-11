@@ -138,7 +138,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className=" mt-20 relative w-72 h-[490px] flex justify-center items-center h-screen bg-gray-100">
+        <div className="mx-auto mt-20 relative w-72 h-[490px] flex justify-center items-center h-screen bg-gray-100">
           <img
             src="/ManOne.png"
             alt="Profile"
@@ -174,11 +174,11 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className=" mt-20 relative w-72 h-[490px] flex justify-center items-center h-screen bg-gray-100">
+        <div className="mx-auto mt-20 relative w-72 h-[490px] flex justify-center items-center h-screen bg-gray-100">
           <img
             src="/ManOne.png"
             alt="Profile"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover "
           />
           <div className=" absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 hover:w-4/5 hover:ml-8">
             <h2 className="text-gray-500 text-xl font-bold ">Pablo Figgo</h2>

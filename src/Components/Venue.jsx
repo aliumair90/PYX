@@ -32,7 +32,7 @@ const Venue = () => {
         {" "}
         The Venue Layout
       </div>
-      <div className="text-center pt-10">
+      <div className="text-center pt-10 mx-auto">
         <p>
           PYX PLACE offers a full-scale event space that is ideal for all
           meetings, events, and weddings alike.
@@ -45,7 +45,7 @@ const Venue = () => {
       <div className="w-[30%] pt-10 mx-auto">
         <img src="/Layout.jpg" alt="" />
       </div>
-      {/* <div className="pt-20 flex  justify-center gap-2">
+      {/* <div className="pt-20 flex flex-col  md:flex-row lg:flex-row 2xl:flex-row justify-center gap-2">
         <div className=" border border-yellow-500 border-2 p-10 h-3/5 ">
           <h1 className="text-yellow-700 font-semibold pt-16 ">
             CONTEMPORARY <br /> BALLROOM
@@ -59,48 +59,12 @@ const Venue = () => {
             lighting ambiance to enhance <br /> your design experience.
           </p>
         </div>
-        <div className="w-[40.5%]  border-yellow-500  border-2">
+        <div className="2xl:w-[40.5%] lg::w-[40.5%] md:w-[40.5%]  border-yellow-500  border-2">
           <img className="  " src="/Venue.png" alt="" />
         </div>
       </div>
-      <div className="pt-2 flex  justify-center gap-2">
-        <div className="w-[40.5%]  border-yellow-500  border-2">
-          <img className="  " src="/Venue.png" alt="" />
-        </div>
-        <div className=" border border-yellow-500 border-2 p-10 h-3/5 ">
-          <h1 className="text-yellow-700 font-semibold pt-16 ">
-            CONTEMPORARY <br /> BALLROOM
-          </h1>
-          <p className="pt-8 text-gray-500">
-            Full length windows that offer <br /> a beautiful unobstructed{" "}
-            <br />
-            water view and lots of natural <br /> light during the day can or{" "}
-            <br /> you can utilize the motorized <br /> shades to block light
-            which <br /> will accomplish an alluring <br />
-            lighting ambiance to enhance <br /> your design experience.
-          </p>
-        </div>
-      </div>
-      <div className="pt-2 flex  justify-center gap-2">
-        <div className=" border border-yellow-500 border-2 p-10 h-3/5 ">
-          <h1 className="text-yellow-700 font-semibold pt-16 ">
-            CONTEMPORARY <br /> BALLROOM
-          </h1>
-          <p className="pt-8 text-gray-500">
-            Full length windows that offer <br /> a beautiful unobstructed{" "}
-            <br />
-            water view and lots of natural <br /> light during the day can or{" "}
-            <br /> you can utilize the motorized <br /> shades to block light
-            which <br /> will accomplish an alluring <br />
-            lighting ambiance to enhance <br /> your design experience.
-          </p>
-        </div>
-        <div className="w-[40.5%]  border-yellow-500  border-2">
-          <img className="  " src="/Venue.png" alt="" />
-        </div>
-      </div>
-      <div className="pt-2 flex  justify-center gap-2">
-        <div className="w-[40.5%]  border-yellow-500  border-2">
+      <div className="pt-2 flex flex-col  md:flex-row lg:flex-row 2xl:flex-row justify-center gap-2">
+        <div className="2xl:w-[40.5%] lg::w-[40.5%] md:w-[40.5%]  border-yellow-500  border-2">
           <img className="  " src="/Venue.png" alt="" />
         </div>
         <div className=" border border-yellow-500 border-2 p-10 h-3/5 ">
@@ -117,7 +81,7 @@ const Venue = () => {
           </p>
         </div>
       </div>
-      <div className="pt-2 flex  justify-center gap-2">
+      <div className="pt-2 flex flex-col  md:flex-row lg:flex-row 2xl:flex-row  justify-center gap-2">
         <div className=" border border-yellow-500 border-2 p-10 h-3/5 ">
           <h1 className="text-yellow-700 font-semibold pt-16 ">
             CONTEMPORARY <br /> BALLROOM
@@ -131,11 +95,47 @@ const Venue = () => {
             lighting ambiance to enhance <br /> your design experience.
           </p>
         </div>
-        <div className="w-[40.5%]  border-yellow-500  border-2">
+        <div className="2xl:w-[40.5%] lg::w-[40.5%] md:w-[40.5%]  border-yellow-500  border-2">
           <img className="  " src="/Venue.png" alt="" />
         </div>
       </div>
-      <div className="flex pt-2 justify-center gap-1.5">
+      <div className="pt-2 flex flex-col  md:flex-row lg:flex-row 2xl:flex-row  justify-center gap-2">
+        <div className="2xl:w-[40.5%] lg::w-[40.5%] md:w-[40.5%]   border-yellow-500  border-2">
+          <img className="  " src="/Venue.png" alt="" />
+        </div>
+        <div className=" border border-yellow-500 border-2 p-10 h-3/5 ">
+          <h1 className="text-yellow-700 font-semibold pt-16 ">
+            CONTEMPORARY <br /> BALLROOM
+          </h1>
+          <p className="pt-8 text-gray-500">
+            Full length windows that offer <br /> a beautiful unobstructed{" "}
+            <br />
+            water view and lots of natural <br /> light during the day can or{" "}
+            <br /> you can utilize the motorized <br /> shades to block light
+            which <br /> will accomplish an alluring <br />
+            lighting ambiance to enhance <br /> your design experience.
+          </p>
+        </div>
+      </div>
+      <div className="pt-2 flex flex-col  md:flex-row lg:flex-row 2xl:flex-row  justify-center gap-2">
+        <div className=" border border-yellow-500 border-2 p-10 h-3/5 ">
+          <h1 className="text-yellow-700 font-semibold pt-16 ">
+            CONTEMPORARY <br /> BALLROOM
+          </h1>
+          <p className="pt-8 text-gray-500">
+            Full length windows that offer <br /> a beautiful unobstructed{" "}
+            <br />
+            water view and lots of natural <br /> light during the day can or{" "}
+            <br /> you can utilize the motorized <br /> shades to block light
+            which <br /> will accomplish an alluring <br />
+            lighting ambiance to enhance <br /> your design experience.
+          </p>
+        </div>
+        <div className="2xl:w-[40.5%] lg::w-[40.5%] md:w-[40.5%]  border-yellow-500  border-2">
+          <img className="  " src="/Venue.png" alt="" />
+        </div>
+      </div>
+      <div className="flex flex-wrap pt-2 justify-center gap-1.5">
         <div className=" border border-yellow-500 border-2 p-8 h-3/5 ">
           <h1 className="text-yellow-700 font-semibold pt-16 ">
             CONTEMPORARY <br /> BALLROOM
@@ -180,7 +180,7 @@ const Venue = () => {
         <img src="/Sun.png" alt="" />
       </div>
       <div className="flex justify-center">
-        <div className="  w-1/2 text-center  mt-16 border-2 border-yellow-500">
+        <div className="  md:w-1/2 lg::w-1/2 2xl:w-1/2 text-center  mt-16 border-2 border-yellow-500">
           <div className=" pt-14">
             <h1 className="font-dancing text-3xl italic text-yellow-500">
               What's Included

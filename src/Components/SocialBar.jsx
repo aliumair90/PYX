@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialBar = () => {
   return (
-    <div className="flex fixed right-0 top-50 mt-[27%] gap-2 pt-1 pr-2 flex-col bg-yellow-500 border rounded-l-xl h-[15%] items-center space-x-4 z-10">
+    <div className="flex fixed right-0 max-sm:top-[40px] md:top-50 lg:top-50 2xl:top-50 mt-[27%] gap-2 pt-1 pr-2 flex-col bg-yellow-500 border rounded-l-xl h-[100px] items-center space-x-4 z-10">
       <a
         href=""
         target="_blank"

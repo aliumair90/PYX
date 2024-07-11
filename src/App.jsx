@@ -11,11 +11,13 @@ import SocialEvent from "./Components/SocialEvent";
 import Faq from "./Components/Faq";
 import Blog from "./Components/Blog";
 import Planing from "./Components/Planing";
+import SocialBar from "./Components/SocialBar";
 
 const App = () => {
   return (
     <Router>
       <Nav />
+      <SocialBar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />

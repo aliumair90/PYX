@@ -59,7 +59,7 @@ const CorporateEvent = () => {
           </div>
 
           <div className="relative  z-8 max-w-3xl">
-            <img src="/Wedding6.jpg" alt="Event" className=" " />
+            <img src="/Wedding6.jpg" alt="Event"  className="max-sm:hidden sm:hidden " />
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ const CorporateEvent = () => {
           </div>
 
           <div className="relative  z-8 max-w-3xl">
-            <img src="/Wedding6.jpg" alt="Event" className=" " />
+            <img src="/Wedding6.jpg" alt="Event" className="max-sm:hidden sm:hidden" />
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ const CorporateEvent = () => {
           </div>
 
           <div className="relative  z-8 max-w-3xl">
-            <img src="/Wedding6.jpg" alt="Event" className=" " />
+            <img src="/Wedding6.jpg" alt="Event"  className="max-sm:hidden sm:hidden" />
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@ const CorporateEvent = () => {
         <div className="py-6 mb-3 text-center">
           <button
             type="button"
-            onClick={navigate("/contact-us")}
+            onClick={()=>{navigate("/contact-us"); window.scroll(0,0);}}
             className=" font-raleway text-base text-white  bg-black font-medium rounded border-black border text-sm px-5 py-2.5 text-center  "
           >
             <id className="px-6">SCHEDULE A TOUR</id>
