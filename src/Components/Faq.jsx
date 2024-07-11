@@ -3,73 +3,35 @@ import NewsletterForm from "./NewsletterForm";
 import Foter from "./Foter";
 const questions = [
   {
-    question: "What is included in the rental price of the facility?",
-    answer:
-      "The venue rental includes a 12-hour rental, the set-up of tables and chameleon chairs, two private suites, a small lounge area, an illuminated top bar with plenty of space to refrigerate drinks as well as an ice machine, 150 self-parking spaces, and a covered terrace perfect for an intimate cocktail reception.",
+    question: "WHERE IS PYX PLACE ?",
+    answer: "PYX PLACE is located at: 2330 Langford Street Dallas TX 75208.",
   },
   {
-    question: "Can I purchase additional hours for my event?",
-    answer:
-      "Yes, additional hours can be purchased for your event. Please contact our team for more details and pricing.",
+    question: "WHAT IS THE SIZE OF THE VENUE ?",
+    answer: "Our venue is 3769 square feet with white walls & concrete floors.",
   },
   {
-    question: "Is there rehearsal time included in my rental?",
+    question: "HOW MUCH TIME DO I HAVE TO SET - UP & TAKE - DOWN ?",
     answer:
-      "Yes, a complimentary rehearsal time is included in your rental. Please coordinate with our team to schedule your rehearsal.",
+      "Your set-up and take-down time are included within your booking. If you would like additional time, hours may be added per additional hour at $250. If you need extra time to decorate and/or tear down, please include this time in your booking. The earliest booking time accepted is 10 AM. The latest rental end time accepted is 12AM. ",
   },
   {
-    question: "Are taxes and fees included in the venue rental pricing?",
+    question: "WHERE DO I PARK ?",
     answer:
-      "Yes, all taxes and fees are included in the venue rental pricing. There are no hidden charges.",
+      "There are several parking spaces on the side of the building along with plenty of free street parking for additional guests.",
   },
   {
-    question: "What is the latest my event can end?",
+    question: "ARE OUT SIDE CATERERS AND VENDORS ALLOWED ?",
     answer:
-      "The latest your event can end is midnight. All events must conclude by this time to allow for clean-up and closure of the venue.",
+      "Currently, approved outside caterers are allowed, at no additional fee - ALL caterers must be licensed + insured and must have staff onsite for the entire duration of your event, until the very end of your booked time. To find out if your caterer of choice will be accepted, just let us know who you’d like to use and send their contact information so we can confirm their level of service will be suitable for your event.",
   },
   {
-    question: "How many guests can Apricus accommodate?",
+    question: "HOW DO I BOOK THE VENUE ?",
     answer:
-      "Pxy Place can accommodate up to 300 guests for a seated event and up to 365 guests for a cocktail reception",
-  },
-  {
-    question: "Does Apricus offer any additional discounts?",
-    answer:
-      "Discounts may apply during promotions or seasonal dates. Please contact our sales team for more information. ",
+      "Please complete the contact us and let us know what date(s) you are interested in, and someone will respond within 24-48 hours. Once you have seen the venue and are ready to book, we will send you a Rental Contract + Invoice for your 50% deposit. Once both items are completed, you will be confirmed! No booking is confirmed until we receive this payment. The remaining balance is due 30 days prior to your event date.",
   },
 ];
-const question = [
-  {
-    question: "Do we need an appointment to tour the venue?",
-    answer:
-      "Walk-ins are welcome, but we do recommend scheduling an appointment to visit the venue to ensure that we are adequately prepared for your arrival. To schedule an appointment please call 940-400-3590.",
-  },
-  {
-    question: "How do I reserve a date for my event?",
-    answer:
-      "Dates are available on a first come first served basis and no date is guaranteed until a signed contract, booking downpayment, and refundable security deposit are received.",
-  },
-  {
-    question: "Does Apricus allow outside vendors? ",
-    answer:
-      "Apricus Venue does have a preferred vendor list for your reference, but you are more than welcome to work with vendors of your choice as well. However, some restrictions do apply to catering, bartenders, and security. For more information regarding our vendor policy please contact our sales team directly.",
-  },
-  {
-    question: "Will there be someone on-site the day of my event?",
-    answer:
-      "You will have two members of Apricus staff on site throughout the duration of your event. While we do offer our support to provide added value at no additional cost to you, our team does have a clear outline of the dos and don’ts for your event.",
-  },
-  {
-    question: "Is security required for my event?",
-    answer:
-      "Security is only required for functions that will be serving alcohol throughout the duration of their event. We work with the city of Corinth’s police department and officers are only required to be on site while the bar is open.",
-  },
-  {
-    question: "When is my final balance due? ",
-    answer:
-      "When booking with Apricus payments are due every two months and the balance due must be paid in full no later than 30 days prior to the event.",
-  },
-];
+
 const Faq = () => {
   const [isRentalOpen, setIsRentalOpen] = useState(true);
   const [openIndex, setOpenIndex] = useState(null);
@@ -82,7 +44,7 @@ const Faq = () => {
       <div className="">
         <img
           className=" w-full object-cover object-center"
-          src="src/assets/Wedding1.jpg "
+          src="/Faq.jpg "
           alt="nature image"
         ></img>
       </div>
@@ -102,12 +64,6 @@ const Faq = () => {
             className={isRentalOpen ? "text-yellow-500" : "text-black"}
           >
             Venue Rental
-          </h1>
-          <h1
-            onClick={() => setIsRentalOpen(false)}
-            className={isRentalOpen ? "text-black" : "text-yellow-500"}
-          >
-            Policies & Procedures
           </h1>
         </div>
 

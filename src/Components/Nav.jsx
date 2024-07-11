@@ -48,7 +48,7 @@ const Nav = () => {
             )}
           </div>
           <div className="hover:text-yellow-500">
-            <Link to="/planning">PLANNING</Link>
+            <Link to="/planning">PRICING</Link>
           </div>
         </div>
         <div className="pl-40 mt-4">

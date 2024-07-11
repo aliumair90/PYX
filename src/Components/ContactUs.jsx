@@ -20,7 +20,7 @@ const ContactUs = () => {
         <Nav />{" "}
       </div>
 
-      <div className="flex w-full">
+      <div className="flex  flex-col lg:flex-row 2xl:flex-row w-full">
         <div className="w-[100%]">
           <br />
           <br />
@@ -126,9 +126,11 @@ const ContactUs = () => {
                     How Did You Hear About Us
                   </label>
                   <select className="mt-1 block w-full border-b-2 border-yellow-500 focus:outline-none focus:border-yellow-600">
-                    <option>Option 1</option>
-                    <option>Option 2</option>
-                    <option>Option 3</option>
+                    <option>Search Engine(Google)</option>
+                    <option>Social Media</option>
+                    <option>E-mail</option>
+                    <option>Advertising</option>
+                    <option>Word of Mouth</option>
                   </select>
                 </div>
               </div>
@@ -153,36 +155,49 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="">
-          <img className="h-full" src="/WeddingVenue.jpg" alt="" />
+          <img
+            className="h-full overflow-hidden"
+            src="/WeddingVenue.jpg"
+            alt=""
+          />
         </div>
       </div>
       <div className="bg-white py-8 pt-16">
-        <div className="max-w-2xl mx-auto flex justify-between items-center space-x-2 text-yellow-500">
+        <div className=" mx-auto flex  flex-col lg:flex-row md:flex-row 2xl:flex-row justify-between items-center space-x-2 text-yellow-500">
           <div className="flex flex-col items-center">
             <FaEnvelope size={20} />
             <a
-              href="mailto:hello@apricusvenue.com"
+              href="mailto:adewale@pyxplace.com"
               className="text-black text-sm hover:underline"
             >
-              hello@apricusvenue.com
+              adewale@pyxplace.com
+            </a>
+          </div>
+          <div className="flex flex-col items-center">
+            <FaEnvelope size={20} />
+            <a
+              href="mailto:adewale@pyxplace.com"
+              className="text-black text-sm hover:underline"
+            >
+              bookings@pyxplace.com
             </a>
           </div>
           <div className="flex flex-col items-center">
             <FaPhone size={20} />
             <a
-              href="tel:(940)400-3590"
+              href="tel:214-785-2233"
               className="text-black pt-1 text-sm hover:underline"
             >
-              (940) 400-3590
+              214-785-2233
             </a>
           </div>
           <div className="flex flex-col items-center">
             <FaMapMarkerAlt size={20} />
             <div className="text-center text-sm pt-1 text-black">
-              6633 S I-35E, Corinth, TX <br /> Zipcode 76210
+              2330 Langford Street Dallas TX 75208
             </div>
           </div>
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <FaThumbsUp size={20} />
             <div className="flex space-x-2 mt-2 text-sm text-black">
               <a href="https://facebook.com" className="hover:text-gray-700">
@@ -198,7 +213,7 @@ const ContactUs = () => {
                 <FaInstagram size={20} />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <NewsletterForm />

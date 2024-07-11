@@ -39,7 +39,9 @@ const AboutUs = () => {
   return (
     <>
       <Nav />
-      <div className=" h-[100vh]  bg-cover bg-center bg-no-repeat  bg-fixed bg-[url('/WeddingVenue.jpg')]"></div>
+      <div className="   bg-cover bg-fixed">
+        <img src="/Bookatour.jpg" alt="" />
+      </div>
       <div className=" text-center flex flex-col justify-center">
         <h1 className="text-gray font-semibold pt-6">About Us</h1>
         <div className="text-center ">
@@ -48,40 +50,58 @@ const AboutUs = () => {
           </h1>
         </div>
         <div className="pt-14">
-          <h1 className=" text-[15px] text-gray-500 font-raleway tracking-wide">
-            Apricus Venue was established to bring people together and provide
-            them with a space to <br />
-            celebrate their loved ones. From intimate gatherings to large scale
-            events, our contemporary <br /> ballroom is the perfect blank canvas
-            to bring your vision to life
+          <h1 className=" text-[15px] pt-4 text-gray-500 w-[70%] mx-auto font-raleway tracking-wide">
+            Welcome to PYX PLACE, where unforgettable moments come to life. Our
+            venue is the cornerstone of celebrations and gatherings. Located in
+            the heart of Dallas Texas, we pride ourselves on providing a
+            versatile space that caters to a wide range of events, from
+            corporate functions to weddings and everything in between.
+          </h1>
+          <h1 className=" text-[15px] pt-4 text-gray-500 w-[70%] mx-auto font-raleway tracking-wide">
+            {" "}
+            At PYX PLACE, we believe in the power of bringing people together
+            and creating lasting memories. Our dedicated team of event
+            specialists is here to ensure that every detail of your event is
+            meticulously planned and flawlessly executed.
+          </h1>
+          <h1 className=" text-[15px] pt-4 text-gray-500 w-[70%] mx-auto font-raleway tracking-wide">
+            {" "}
+            With over 3,500 square feet of customizable space, state-of-the-art
+            audiovisual technology, and a team of professionals, we are
+            committed to making your event truly special.
+          </h1>
+          <h1 className=" text-[15px] pt-4 text-gray-500 w-[70%] mx-auto font-raleway tracking-wide">
+            {" "}
+            We invite you to explore our venue, envision your event, and let us
+            help you turn your vision into reality. Welcome to PYX PLACE- where
+            every moment is a masterpiece.
           </h1>
         </div>
         <div className="pt-5">
-          <h1 className=" font-raleway text-[15px] text-gray-500 tracking-wide">
+          <h1 className=" text-[15px] text-gray-500 w-[70%] mx-auto font-raleway tracking-wide">
             We take pride in our modern and flexible design that highlights our
-            simplistic approach. With full- <br />
-            length windows, black trim, and hardwood floors, your guests will be
-            blown away by our attention <br /> to detail. We also have an
-            outdoor covered terrace accompanied by water-views that is sure to{" "}
-            <br /> add a special touch to your big day!
+            simplistic approach. With full- length windows, black trim, and
+            hardwood floors, your guests will be blown away by our attention to
+            detail. We also have an outdoor covered terrace accompanied by
+            water-views that is sure to add a special touch to your big day!
           </h1>
         </div>
         <div className="pt-5">
-          <h1 className=" font-raleway text-[15px] text-gray-500 tracking-wide">
-            Once you decide Apricus is the wedding venue of your dreams, we
-            would love to be an extension <br /> of your wedding dream team!
+          <h1 className=" text-[15px] text-gray-500 w-[70%] mx-auto font-raleway tracking-wide">
+            Once you decide is the wedding venue of your dreams, we would love
+            to be an extension of your wedding dream team!
           </h1>
         </div>
-        <div className="flex justify-center mt-16 rotate-180">
+        {/* <div className="flex justify-center mt-16 rotate-180">
           <img src="/Sun.png" alt="" />
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <h1 className="text-yellow-500 mt-14 font-dancing text-3xl">
             MEET THE TEAM
           </h1>
-        </div>
+        </div> */}
       </div>
-      <div className="flex justify-center gap-9">
+      {/* <div className="flex justify-center gap-9">
         <div className=" mt-20 relative w-72 h-[490px] flex justify-center items-center h-screen bg-gray-100">
           <img
             src="/ManOne.png"
@@ -190,16 +210,34 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="text-center text-base font-raleway text-gray-500 mt-10  ">
+      </div> */}
+      {/* <div className="text-center text-base font-raleway text-gray-500 mt-10  ">
         <h1>
           Founded and operated by seasoned event experts with ever-deepening
           cultural competency <br /> that embraces diversity.{" "}
         </h1>
-      </div>
-      <div className="flex justify-center mt-12 rotate-180">
+      </div> */}
+      {/* <div className="flex justify-center mt-12 rotate-180">
         <img src="/Sun.png" alt="" />
+      </div> */}
+      <div className="text-xl text-center w-[70%] mt-10  mx-auto font-bold">
+        Our Team:
       </div>
+      <p className="w-[70%] text-center pt-5 mx-auto text-gray-500">
+        Behind PYX PLACE is a team of dedicated professionals who are committed
+        to making your event a success. From our event coordinators to our
+        talented vendors and attentive staff, we work together seamlessly to
+        ensure that every detail is perfect.
+      </p>
+      <div className="text-xl text-center w-[70%] mt-10  mx-auto font-bold">
+        Our Mission:
+      </div>
+      <p className="w-[70%] text-center pt-5 mx-auto text-gray-500">
+        At PYX PLACE our mission is simple - to provide exceptional service,
+        exquisite cuisine, and a beautiful setting for your special event. We
+        believe that every celebration deserves to be extraordinary, and we are
+        here to make that vision a reality.
+      </p>
       <div className="text-center pt-24 font-dancing text-yellow-500 text-5xl">
         <h1>Community Involvement</h1>
       </div>
@@ -229,7 +267,7 @@ const AboutUs = () => {
       <div className="pt-24 text-center">
         <button
           type="button"
-          className=" px-28 text-base text-white border rounded-md border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium  border-gray-300 border-2 text-sm px-12 py-1.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900 hover:bg-gray-500"
+          className="px-10 md:px-28 lg:px-28 2xl:px-28 text-base text-white border rounded-md border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium  border-gray-300 border-2 text-sm px-12 py-1.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900 hover:bg-gray-500"
         >
           Contact Us
         </button>

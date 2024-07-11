@@ -29,7 +29,10 @@ const NewsletterForm = () => {
             NEWSLETTER SUBSCRIBE
           </p>
           <div>
-            <form onSubmit={handleSubmit} className=" flex flex-col lg:flex-row gap-30 lg:gap-60">
+            <form
+              onSubmit={handleSubmit}
+              className=" flex flex-col lg:flex-row gap-30 lg:gap-60"
+            >
               <div className="flex flex-col">
                 <label htmlFor="name" className="text-sm font-semibold">
                   Name
@@ -63,7 +66,7 @@ const NewsletterForm = () => {
           <div className="flex justify-center pt-8">
             <button
               type="submit"
-              className="  px-32 font-raleway text-base text-black border border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded border-black border text-sm  py-1 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:bg-yellow-500  dark:focus:ring-yellow-900 hover:bg-black hover:text-yellow-500 hover:border-yellow-500"
+              className="px-10 2xl:px-32 md:px-32 lg:px-32 font-raleway text-base text-black border border-yellow-40 bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded border-black border text-sm  py-1 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:bg-yellow-500  dark:focus:ring-yellow-900 hover:bg-black hover:text-yellow-500 hover:border-yellow-500"
             >
               Submit
             </button>

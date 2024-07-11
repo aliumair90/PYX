@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Foter = () => {
   return (
     <>
-      <div className="bg-white w-[80%] mx-auto flex h-full">
+      <div className="bg-white w-[80%] mx-auto flex flex-col lg:flex-row md:flex-row 2xl:flex-row h-full">
         <div
           className="
       max-w-7xl  py-6  sm:px-6 lg:px-8 pt-10"
@@ -23,65 +23,76 @@ const Foter = () => {
         <div className="bg-white">
           <div className="max-w-7xl mx-auto py-6  px-4 sm:px-6 lg:px-8">
             <div>
-              <div className="flex gap-20 gap-y-10">
-                <div className=" md:col-span-1">
-                  <p className="text-xs py-2 font-semibold">
-                    <Link to="/" className="underline hover:no-underline">
-                      HOME
-                    </Link>
-                  </p>
-                  <p className="text-xs py-1 font-semibold">
-                    <Link
-                      to="/about-us"
-                      className="underline hover:no-underline"
-                    >
-                      ABOUT US
-                    </Link>
-                  </p>
-                  <p className="text-xs py-1 font-semibold">
-                    <Link to="/venue" className="underline hover:no-underline">
-                      THE VENUE
-                    </Link>
-                  </p>
-                  <p className="text-xs py-1 font-semibold">
-                    <Link to="/events" className="underline hover:no-underline">
-                      EVENTS
-                    </Link>
-                  </p>
-                  <p className="text-xs py-1 font-semibold">
-                    <Link to="/portal" className="underline hover:no-underline">
-                      PORTAL
-                    </Link>
-                  </p>
-                </div>
-                <div>
-                  <p className="text-xs py-2 font-semibold ">OUR SERVICES</p>
-                  <ul className="list-disc pl-4">
-                    <li className="text-xs">
+              <div className="flex  flex-col lg:flex-row md:flex-row 2xl:flex-row gap-20 gap-y-10">
+                <div className="flex flex-row gap-10  ">
+                  <div className=" md:col-span-1">
+                    <p className="text-xs py-2 font-semibold">
+                      <Link to="/" className="underline hover:no-underline">
+                        HOME
+                      </Link>
+                    </p>
+                    <p className="text-xs py-1 font-semibold">
                       <Link
-                        to="/weddings"
+                        to="/about-us"
                         className="underline hover:no-underline"
                       >
-                        Wedding
+                        ABOUT US
                       </Link>
-                    </li>
-                    <li className="text-xs  ">
+                    </p>
+                    <p className="text-xs py-1 font-semibold">
                       <Link
-                        to="/corporate-event"
+                        to="/venue"
                         className="underline hover:no-underline"
                       >
-                        Corporate Events
+                        THE VENUE
                       </Link>
-                    </li>
-                    <li className="text-xs ">
+                    </p>
+                    <p className="text-xs py-1 font-semibold">
                       <Link
-                        to="/social-event"
+                        to="/events"
                         className="underline hover:no-underline"
                       >
-                        Social Events
+                        EVENTS
                       </Link>
-                    </li>
-                  </ul>
+                    </p>
+                    <p className="text-xs py-1 font-semibold">
+                      <Link
+                        to="/portal"
+                        className="underline hover:no-underline"
+                      >
+                        PORTAL
+                      </Link>
+                    </p>
+                  </div>
+                  <div className=" md:row-span-1">
+                    <p className="text-xs py-2 font-semibold ">OUR SERVICES</p>
+                    <ul className="list-disc pl-4">
+                      <li className="text-xs">
+                        <Link
+                          to="/weddings"
+                          className="underline hover:no-underline"
+                        >
+                          Wedding
+                        </Link>
+                      </li>
+                      <li className="text-xs  ">
+                        <Link
+                          to="/corporate-event"
+                          className="underline hover:no-underline"
+                        >
+                          Corporate Events
+                        </Link>
+                      </li>
+                      <li className="text-xs ">
+                        <Link
+                          to="/social-event"
+                          className="underline hover:no-underline"
+                        >
+                          Social Events
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div>

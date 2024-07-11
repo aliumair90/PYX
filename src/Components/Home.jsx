@@ -12,7 +12,7 @@ const Home = () => {
         <div className="max-w-full max-h-full bg-fixed  mx-auto">
           <img
             className="w-full h-full object-cover"
-            src="./Wedding2.jpg"
+            src="/Bookatour.jpg"
             // autoPlay
             // loop
             // muted
@@ -31,20 +31,12 @@ const Home = () => {
               Metroplex.
             </h1>
           </div>
-          <div className="pt-14">
-            <h1 className=" font-raleway text-[14px] text-gray-400 tracking-wide">
-              The Latin word “apricus” means “warmed by the sun” reflecting the
-              state of mind we want our <br />
-              clients to gain through our services – revealing their sense of
-              delight and gratitude from <br /> working with us.
-            </h1>
-          </div>
-          <div className="pt-5">
-            <h1 className=" font-raleway text-[14px] text-gray-400 tracking-wide">
-              From our venue staff to our list of preferred vendors, Apricus
-              Venue strives to make your <br />
-              dreams a reality by helping coordinate some of the highest quality
-              events.
+
+          <div className="pt-8">
+            <h1 className=" w-[70%] mx-auto font-raleway text-[14px] text-gray-400 tracking-wide">
+              From our venue staff to our list of preferred vendors, PYX PLACE
+              strives to make your dreams a reality by helping coordinate some
+              of the highest quality events.
             </h1>
           </div>
           <div className="flex justify-center pt-10">
