@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // New state for mobile menu
-
+  const navigate=useNavigate();
   const handleLinkClick = () => {
     window.scrollTo(0, 0); // Scroll to top
     setIsMobileMenuOpen(false); // Close mobile menu
@@ -13,7 +14,7 @@ const Nav = () => {
   return (
     <>
       <nav className="fixed max-sm:justify-between sm:justify-between top-0 z-20 bg-customBg-50 flex w-full border-b-4 border-black">
-        <div className="w-[25%] md:w-[12%] lg:w-[12%] 2xl:w-[12%] md:pl-10 lg:pl-10 2xl:pl-20 pt-5 pb-2">
+        <div onClick={()=>{navigate('/');handleLinkClick();}} className="w-[25%] md:w-[12%] lg:w-[12%] 2xl:w-[12%] md:pl-10 lg:pl-10 2xl:pl-20 pt-5 pb-2">
           <img src="/Logo1.png" alt="Logo"  />
         </div>
         <div className="flex pt-7 pl-96 md:pl-20 gap-4 text-[0.8125rem] font-semibold hidden md:flex"> {/* Hide on mobile */}
